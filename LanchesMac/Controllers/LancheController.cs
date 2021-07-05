@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LanchesMac.Repositories;
+using LanchesMac.Models.ViewModels;
 
 namespace LanchesMac.Controllers
 {
@@ -21,8 +22,17 @@ namespace LanchesMac.Controllers
         {
             ViewBag.Lanche = "Lanches";
             ViewData["Categoria"] = "Categoria";
-            var lanches = _lancheRepository.Lanches;
-            return View(lanches);
+            //  var lanches = _lancheRepository.Lanches;
+            //  return View(lanches);
+
+            var lancheslistViewModel = new LancheListViewModel()
+            {
+                Lanches = _lancheRepository.Lanches,
+                CategoriaAtual = "Categoria Atual"
+            };
+            return View(lancheslistViewModel);
+
+
         }
     }
 }
