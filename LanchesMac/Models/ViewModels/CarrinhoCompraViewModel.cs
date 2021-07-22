@@ -17,5 +17,10 @@ namespace LanchesMac.Models.ViewModels
             CarrinhoCompra = carrinhoCompra;
             CarrinhoCompraTotal = carrinhoCompraTotal;
         }
+
+        public CarrinhoCompraViewModel(CarrinhoCompra carrinhoCompra)
+        {
+            CarrinhoCompra = carrinhoCompra;           
+        }
     }
 }

@@ -34,3 +34,5 @@ F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LanchesResumo.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\CarrinhoCompra\Index.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CarrinhoCompraResumo\Default.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Contato\Index.cshtml.g.cs

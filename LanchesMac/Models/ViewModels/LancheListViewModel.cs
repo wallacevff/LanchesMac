@@ -10,5 +10,18 @@ namespace LanchesMac.Models.ViewModels
     {
         public IEnumerable<Lanche> Lanches { get; set; }
         public string CategoriaAtual { get; set; }
+
+        public LancheListViewModel()
+        {
+
+        }
+
+        public LancheListViewModel(IEnumerable<Lanche> lanches, string categoriaAtual)
+        {
+            Lanches = lanches;
+            CategoriaAtual = categoriaAtual;
+        }
     }
+   
+
 }

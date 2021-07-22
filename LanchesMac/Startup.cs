@@ -31,8 +31,8 @@ namespace LanchesMac
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            
-            
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -66,9 +66,16 @@ namespace LanchesMac
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
+                    name: "filtrarPorCategoria",
+                    template: "Lanche/{action}/{categoria}",
+                    defaults: new { Controller="Lanche", action="List" }
+                    );
+
+                routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
         }
     }
 }
