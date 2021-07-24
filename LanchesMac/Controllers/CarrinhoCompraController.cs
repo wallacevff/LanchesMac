@@ -13,20 +13,23 @@ namespace LanchesMac.Controllers
     {
         private readonly ILancheRepository _lancheRepository;
         private readonly CarrinhoCompra _carrinhoCompra;
+        private readonly ICategoriaRepository _categoria;
 
-        public CarrinhoCompraController(ILancheRepository lancheRepository, CarrinhoCompra carrinhoCompra)
+        public CarrinhoCompraController(ILancheRepository lancheRepository, CarrinhoCompra carrinhoCompra, ICategoriaRepository categoria)
         {
             _lancheRepository = lancheRepository;
             _carrinhoCompra = carrinhoCompra;
+            _categoria = categoria;
         }
 
         public IActionResult Index()
         {
             var itens = _carrinhoCompra.GetCarrinhoCompraItens();
             _carrinhoCompra.CarrinhoCompraItens = itens;
+            IEnumerable<Categoria> categorias = _categoria.Categorias;
 
             var carrinhoCompraViewModel = new CarrinhoCompraViewModel(
-                _carrinhoCompra, _carrinhoCompra.GetCarrinhoCompraTotal());
+                _carrinhoCompra, _carrinhoCompra.GetCarrinhoCompraTotal(), categorias);
             return View(carrinhoCompraViewModel);
         }
 

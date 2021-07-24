@@ -4,14 +4,14 @@
     <ul class="dropdown-menu">
         @foreach (var categoria in Model)
         {
-    <li>
-        <a asp-controller="Lanche" asp-action="List"
-           asp-route-categoria="@categoria.CategoriaNome">@categoria.CategoriaNome</a>
-    </li>
-}
+            <li>
+                <a asp-controller="Lanche" asp-action="List"
+                   asp-route-categoria="@categoria.CategoriaNome">@categoria.CategoriaNome</a>
+            </li>
+        }
         <li class="divider"></li>
         <li>
             <a asp-controller="Lanche" asp-action="List" asp-route-categoria="">Ver todos os Lanches</a>
         </li>
-        </ul>
-        </li>
+    </ul>
+</li>

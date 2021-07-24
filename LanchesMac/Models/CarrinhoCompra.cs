@@ -72,10 +72,11 @@ namespace LanchesMac.Models
 
             if (carrinhoCompraItem != null)
             {
-                if (carrinhoCompraItem.Quantidade > 0)
+                if (carrinhoCompraItem.Quantidade > 1)
                 {
                     carrinhoCompraItem.Quantidade--;
                     quantidadeLocal = carrinhoCompraItem.Quantidade;
+                    
                 }
                 else
                 {
@@ -105,8 +106,8 @@ namespace LanchesMac.Models
 
         public decimal GetCarrinhoCompraTotal()
         {
-            decimal total = (decimal)_context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
-              .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
+            decimal total = Convert.ToDecimal(_context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+              .Select(c => (decimal)c.Lanche.Preco * c.Quantidade).Sum());
             return total;
         }
 
