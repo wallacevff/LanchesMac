@@ -11941,7 +11941,7 @@
     ]
   },
   "packageFolders": {
-    "F:\\Users\\walla\\.nuget\\packages\\": {},
+    "F:\\Users\\walla_jjfkvoq\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -11951,7 +11951,7 @@
       "projectUniqueName": "F:\\Users\\walla\\source\\repos\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
       "projectName": "LanchesMac",
       "projectPath": "F:\\Users\\walla\\source\\repos\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
-      "packagesPath": "F:\\Users\\walla\\.nuget\\packages\\",
+      "packagesPath": "F:\\Users\\walla_jjfkvoq\\.nuget\\packages\\",
       "outputPath": "F:\\Users\\walla\\source\\repos\\LanchesMac\\LanchesMac\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -11959,7 +11959,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "F:\\Users\\walla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "F:\\Users\\walla_jjfkvoq\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -12032,7 +12032,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

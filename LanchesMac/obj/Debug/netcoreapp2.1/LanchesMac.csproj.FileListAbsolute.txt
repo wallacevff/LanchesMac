@@ -38,3 +38,6 @@ F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Contato\Index.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoriaMenu\Default.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Lanche\Details.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Checkout.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\CheckoutCompleto.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\LanchesMac.GeneratedMSBuildEditorConfig.editorconfig

@@ -54,6 +54,7 @@ namespace LanchesMac.Models
                 };
 
                 _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
+                _context.SaveChanges();
             }
 
             else
@@ -91,9 +92,10 @@ namespace LanchesMac.Models
 
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoCompraItens ?? (_context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+            CarrinhoCompraItens = (_context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                 .Include(s => s.Lanche)
                 .ToList());
+            return CarrinhoCompraItens;
         }
 
         public void LimparCarrinho()
