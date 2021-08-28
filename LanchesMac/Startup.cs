@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using LanchesMac.Repositories;
 using Microsoft.AspNetCore.Session;
 using LanchesMac.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace LanchesMac
 {
@@ -37,6 +38,9 @@ namespace LanchesMac
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddTransient<ILancheRepository, LancheRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
@@ -59,6 +63,7 @@ namespace LanchesMac
                 app.UseHsts();
             }
 
+            app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
