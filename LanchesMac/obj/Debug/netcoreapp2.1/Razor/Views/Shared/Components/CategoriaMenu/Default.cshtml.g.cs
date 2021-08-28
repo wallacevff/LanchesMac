@@ -68,7 +68,7 @@ using LanchesMac.Components;
             WriteLiteral("<li class=\"dropdown\">\r\n    ");
             EndContext();
             BeginContext(27, 124, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25ee6f32896e4b0787e4a6f226cd9db8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c2957923c5747968c2799d9949a5644", async() => {
                 BeginContext(119, 28, true);
                 WriteLiteral("Lanches<b class=\"caret\"></b>");
                 EndContext();
@@ -103,7 +103,7 @@ using LanchesMac.Components;
             WriteLiteral("            <li>\r\n                ");
             EndContext();
             BeginContext(275, 140, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d58b46d5871491ea8b3d8b20db34d2f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6db4a815c1c94a87939376722f2cd66e", async() => {
                 BeginContext(388, 23, false);
 #line 9 "F:\Users\walla\source\repos\LanchesMac\LanchesMac\Views\Shared\Components\CategoriaMenu\Default.cshtml"
                                                              Write(categoria.CategoriaNome);
@@ -152,7 +152,7 @@ using LanchesMac.Components;
             WriteLiteral("        <li class=\"divider\"></li>\r\n        <li>\r\n            ");
             EndContext();
             BeginContext(508, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a85ebedef6d40d5bfe328177b3d9225", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adf99b70d70944ef8594c16ce216d9e8", async() => {
                 BeginContext(576, 20, true);
                 WriteLiteral("Ver todos os Lanches");
                 EndContext();

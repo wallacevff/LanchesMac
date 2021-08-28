@@ -68,7 +68,7 @@ using LanchesMac.Components;
             WriteLiteral("<br />\r\n<br />\r\n<div class=\"container\">\r\n    <br />\r\n    ");
             EndContext();
             BeginContext(57, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "63ef0b3d76fe444eaa2ae5382e033826", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a9004e2c5d7f40339cca3b2ad88f4078", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -95,7 +95,7 @@ using LanchesMac.Components;
             ");
             EndContext();
             BeginContext(379, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a602f07237a046ad8eb336e34f80d965", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("email", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a49399ad6e534688b97ad66ba155a836", async() => {
             }
             );
             __LanchesMac_TagHelpers_EmailTagHelper = CreateTagHelper<global::LanchesMac.TagHelpers.EmailTagHelper>();

@@ -74,7 +74,7 @@ using LanchesMac.Components;
             WriteLiteral("\r\n<div class=\"row checkoutForm\">\r\n\r\n    ");
             EndContext();
             BeginContext(72, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d68498ba99aa478f98219f658adaf93d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b9cfd901897e46cfad20e24579a20220", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -156,9 +156,9 @@ using LanchesMac.Components;
             WriteLiteral("\r\n                    </td>\r\n                    <td class=\"text-center\">\r\n                        ");
             EndContext();
             BeginContext(1082, 156, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a994399060542e4bb98dfae6637a777", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a42717cd153408c99a83bad1f522469", async() => {
                 BeginContext(1201, 33, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "496636d770c04949b4b38965ccd7e2aa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a34ea55d2db245f481603f7c7af67d01", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -223,7 +223,7 @@ using LanchesMac.Components;
             WriteLiteral("\r\n                </td>\r\n            </tr>\r\n        </tfoot>\r\n    </table>\r\n\r\n    <div class=\"text-right\">\r\n        <div class=\"btn-group \">\r\n            ");
             EndContext();
             BeginContext(1677, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd165f209b844f1e9c642686d47ce3c6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "222116b0303041ca9177f6d17c251fb1", async() => {
                 BeginContext(1750, 15, true);
                 WriteLiteral("Encerrar Pedido");
                 EndContext();
@@ -263,7 +263,7 @@ using LanchesMac.Components;
             WriteLiteral("                        <li>");
             EndContext();
             BeginContext(2166, 120, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d91121b71f84449888acc3af6bcd780b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8ea2038317d4b3a9b98d53e28f5d1fd", async() => {
                 BeginContext(2259, 23, false);
 #line 55 "F:\Users\walla\source\repos\LanchesMac\LanchesMac\Views\CarrinhoCompra\Index.cshtml"
                                                                                                                    Write(categoria.CategoriaNome);
@@ -312,7 +312,7 @@ using LanchesMac.Components;
             WriteLiteral("                    <li class=\"divider\"></li>\r\n                    <li>");
             EndContext();
             BeginContext(2387, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91c4f038b13a4b15b914b847e1ae9fe1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "15b8fe11d5a343e48b4c2330ab4a1f73", async() => {
                 BeginContext(2455, 19, true);
                 WriteLiteral("Todas as Categorias");
                 EndContext();

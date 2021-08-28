@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using LanchesMac.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LanchesMac.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -19,6 +21,7 @@ namespace LanchesMac.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Login(string returnUrl)
         {
@@ -29,6 +32,7 @@ namespace LanchesMac.Controllers
             });
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
