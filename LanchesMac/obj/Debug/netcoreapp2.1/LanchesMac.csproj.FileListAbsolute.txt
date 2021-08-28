@@ -41,3 +41,7 @@ F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\Checkout.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Pedido\CheckoutCompleto.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\LanchesMac.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

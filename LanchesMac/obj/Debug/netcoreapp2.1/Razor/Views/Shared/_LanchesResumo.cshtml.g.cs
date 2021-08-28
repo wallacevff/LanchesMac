@@ -89,7 +89,7 @@ WriteAttributeValue("", 104, Model.ImagemUrl, 104, 16, false);
             WriteLiteral("</h3>\r\n        <h3>\r\n           ");
             EndContext();
             BeginContext(281, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7fb41159fae2432486332bfb71d7eeba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68b0b0ba8dc44d9782aea979d310fef0", async() => {
                 BeginContext(367, 10, false);
 #line 9 "F:\Users\walla\source\repos\LanchesMac\LanchesMac\Views\Shared\_LanchesResumo.cshtml"
                                                                                            Write(Model.Nome);
@@ -143,7 +143,7 @@ WriteAttributeValue("", 104, Model.ImagemUrl, 104, 16, false);
             WriteLiteral("</p>\r\n    </div>\r\n    <div class=\"addToCart text-right\">\r\n        <p class=\"button \">\r\n            ");
             EndContext();
             BeginContext(530, 210, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9884189c7854105b061650080a9ee3f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "389d1f74d8f145a1a903c42982910c82", async() => {
                 BeginContext(685, 51, true);
                 WriteLiteral("\r\n                Incluir no Carrinho\r\n            ");
                 EndContext();
