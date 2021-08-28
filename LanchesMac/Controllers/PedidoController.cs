@@ -38,17 +38,30 @@ namespace LanchesMac.Controllers
             if (ModelState.IsValid)
             {
                 _pedidoRepository.CriarPedido(pedido);
+                /*
+                TempData["Cliente"] = pedido.Nome;
+                TempData["NumeroPedido"] = pedido.PedidoId;
+                TempData["DataPedido"] = pedido.PedidoEnviado; */
+                ViewBag.CheckoutCompletoMensagem = "Obrigado pelo pedido :) ";
+                ViewBag.TotalPedido = _carrinhoCompra.GetCarrinhoCompraTotal();
+                
                 _carrinhoCompra.LimparCarrinho();
-                return RedirectToAction("CheckoutCompleto");
+
+                return View("/Views/Pedido/CheckoutCompleto.cshtml", pedido);
             }
 
             return View(pedido);
         }
-
+        /*
         public IActionResult CheckoutCompleto()
         {
+            ViewBag.Cliente = TempData["Cliente"];
+            ViewBag.NumeroPedido = TempData["NumeroPedido"];
+            ViewBag.DataPedido = TempData["DataPedido"];
+            ViewBag.TotalPedido = TempData["TotalPedido"];
             ViewBag.CheckoutCompletoMensagem = "Obrigado pelo pedido :) ";
             return View();
         }
+        */
     }
 }
