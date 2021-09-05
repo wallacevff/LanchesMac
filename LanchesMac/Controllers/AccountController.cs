@@ -53,7 +53,7 @@ namespace LanchesMac.Controllers
                         return RedirectToAction("Index", "Home");
                     }
                 }
-                return RedirectToAction(loginVM.ReturnUrl);
+                return Redirect(loginVM.ReturnUrl);
             }
             ModelState.AddModelError("", "Usuário/Senha invalidos ou não localizados");
             return View(loginVM);
