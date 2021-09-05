@@ -45,3 +45,7 @@ F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
 F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+F:\Users\walla\source\repos\LanchesMac\LanchesMac\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
