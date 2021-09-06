@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore;
+﻿using LanchesMac.Data;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -7,6 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using LanchesMac.Extensao;
 
 namespace LanchesMac
 {
@@ -14,7 +16,7 @@ namespace LanchesMac
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().CreateAdminRole().Run();            
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
