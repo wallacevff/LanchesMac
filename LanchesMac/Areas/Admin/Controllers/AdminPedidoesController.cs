@@ -11,7 +11,7 @@ using LanchesMac.Models;
 namespace LanchesMac.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Microsoft.AspNetCore.Authorization.Authorize]
+    [Microsoft.AspNetCore.Authorization.Authorize(Roles ="Admin")]
     public class AdminPedidoesController : Controller
     {
         private readonly AppDbContext _context;

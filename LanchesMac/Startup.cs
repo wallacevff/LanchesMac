@@ -32,7 +32,7 @@ namespace LanchesMac
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.ConfigureApplicationCookie(options => options.AccessDeniedPath = "/Home/AccessDenied");
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<AppDbContext>(options =>
