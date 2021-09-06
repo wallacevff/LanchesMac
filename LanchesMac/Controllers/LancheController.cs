@@ -21,7 +21,7 @@ namespace LanchesMac.Controllers
 
         public IActionResult List(string categoria)
         {
-            string _categoria = categoria;
+            //string _categoria = categoria;
             IEnumerable<Lanche> lanches;
             lanches = null;
             string categoriaAtual = string.Empty;
@@ -32,7 +32,7 @@ namespace LanchesMac.Controllers
             }
             else
             {
-
+                /*
                 if (string.Equals("Normal", _categoria, StringComparison.OrdinalIgnoreCase))
                 {
                     lanches = _lancheRepository.Lanches.Where(
@@ -42,8 +42,10 @@ namespace LanchesMac.Controllers
                 {
                     lanches = _lancheRepository.Lanches.Where(
                         l => l.Categoria.CategoriaNome.Equals("Natural")).OrderBy(l => l.Nome);
-                }
-                categoriaAtual = _categoria;
+                }*/
+                lanches = _lancheRepository.Lanches.Where(
+                       l => l.Categoria.CategoriaNome.Equals(categoria)).OrderBy(l => l.Nome);
+                categoriaAtual = categoria;
 
             }
             LancheListViewModel lanchesListViewModel = new LancheListViewModel(lanches, categoriaAtual);
@@ -80,7 +82,7 @@ namespace LanchesMac.Controllers
             }
 
             //return RedirectToAction("List", new LancheListViewModel { Lanches = lanches, CategoriaAtual = "Todos os lanches" });
-            return View("/Views/Lanche/List.cshtml", new LancheListViewModel { Lanches = lanches, CategoriaAtual = "Todos os lanches" } );
+            return View("/Views/Lanche/List.cshtml", new LancheListViewModel { Lanches = lanches, CategoriaAtual = "Todos os lanches" });
 
         }
     }

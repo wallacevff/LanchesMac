@@ -30,7 +30,7 @@ namespace LanchesMac.Models
         [StringLength(100)]
         public string Endereco2 { get; set; }
         [Required(ErrorMessage = "Informe o CEP")]
-        [Display(Name = "Complemento")]
+        [Display(Name = "CEP")]
         [StringLength(10), MinLength(8)]
         public string Cep { get; set; }
         [Required(ErrorMessage = "Informe o estado")]
